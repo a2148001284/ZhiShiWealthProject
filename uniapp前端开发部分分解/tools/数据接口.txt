@@ -1,0 +1,15 @@
+播音🎶 2022/10/19 19:50:16
+http://www.zsxg.cn/api/v2/index/northAndRfStat?container=pc    北向资金
+
+播音🎶 2022/10/19 19:50:16
+http://www.zsxg.cn/api/v2/index/list?type=1   大盘指数
+
+播音🎶 2022/10/19 19:50:16
+http://www.zsxg.cn/api/v2/index/list?type=0  一级行业
+
+播音🎶 2022/10/19 19:50:16
+http://www.zsxg.cn/api/v2/index/list?type=2  二级行业
+
+播音🎶 2022/10/19 19:50:16
+http://www.zsxg.cn/api/v2/index/list?type=3  三级行业
+

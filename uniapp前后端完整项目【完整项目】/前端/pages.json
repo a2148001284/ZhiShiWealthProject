@@ -1,0 +1,95 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/Page3/Login/Login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+       {
+            "path" : "pages/Page1/page1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Page3/Page3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Page3/Login/Login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/table/table",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/Page3/Register/Register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+			"path" : "pages/Page2/Page2",
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		}
+    ],
+	//导航栏
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#00aaff",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/Page1/page1",
+				"iconPath": "static/shouye.png",
+				"selectedIconPath": "static/shouyefill.png"
+			},
+			{
+				"text": "个股",
+				"pagePath": "pages/Page2/Page2",
+				"iconPath": "static/gupiao2.png",
+				"selectedIconPath": "static/gupiao.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/table/table",
+				"iconPath": "static/wode.png",
+				"selectedIconPath": "static/wode-wode.png"
+			}
+		]
+	},
+	//全局配置
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#55aaff",
+		"backgroundColor": "#A5BBFE"
+	}
+}

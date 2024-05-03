@@ -1,0 +1,27 @@
+	.fixed3{
+		position: sticky;
+		left:0px;
+		background-color:#FFFFFF;
+	}
+	.fixed4{
+		position: sticky;
+		left:79px;
+		background-color:#FFFFFF;
+	}
+	.button-biankuang{
+			width: 50rpx;
+			height: 30rpx;
+			display: flex;
+			margin-top: 5rpx;
+			line-height: 20rpx;
+			justify-content: center;
+			border-radius: 25px;
+			border: 3rpx solid #6699FF;
+			font-size: 14rpx;
+		}
+	.bg-click {
+			top: 3upx;
+			background-color: #a7a9ff;
+		}
+	
+	

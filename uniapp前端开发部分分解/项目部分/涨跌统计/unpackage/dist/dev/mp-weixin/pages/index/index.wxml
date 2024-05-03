@@ -1,0 +1,1 @@
+<view class="dataTable"><u-toast class="vue-ref" vue-id="8dd740cc-1" data-ref="uToast" bind:__l="__l"></u-toast><view class="dataTable-canvas"><view class="dataTable-canvas-title"><text>近七日学生上报统计</text></view><canvas id="myEcharts"></canvas></view></view>

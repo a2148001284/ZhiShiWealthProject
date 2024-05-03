@@ -1,0 +1,134 @@
+/* -------表格样式 start------------- */
+view {
+
+	background-color: #FFFAE8;
+}
+
+
+.hidden {
+	display: none;
+	background-color: #ff20c4;
+}
+.table {
+	margin: 15px 0 ;
+	
+}
+.table .tableBody {
+	display: flex;
+
+	overflow: scroll;
+	/* 添加滚动条，但是不一定好看 */
+}
+
+.table .tableHead {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*单行*/
+}
+
+.table .tableBody .tableColumn {
+	margin: 5px;
+}
+
+.table .tableBody .tableColumn .tableColItem {
+	width: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*单行*/
+
+}
+
+.table .tableBody .tableColumn .tableColHead {
+	width: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*单行*/
+	background-color: #41A863;
+	border-radius: 5px;
+}
+
+.table .tableBody .tableColumn:first-of-type {
+	position: sticky;
+	left: 0;
+}
+
+/* -------表格样式    end----- */
+
+/* 下拉框  开始 */
+/* 顶部 */
+.scroll-view {
+	width: 100vw;
+	height: 80rpx;
+	padding: 0 20rpx;
+	line-height: 80rpx;
+	font-size: 34rpx;
+	border-bottom: 1px solid #000;
+}
+
+.scroll-view .scroll-left {
+	float: left
+}
+
+/* 下拉框的 点击部分 */
+.scroll-view .scroll-right {
+	float: right;
+	width: 50%;
+	display: flex;
+	position: relative;
+
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #ccc;
+	padding: 0 10rpx;
+	font-size: 30rpx;
+}
+
+/* 下拉图标 */
+.scroll-view .scroll-right image {
+	height: 50rpx;
+	width: 50rpx;
+	position: absolute;
+	right: 30rpx;
+	top: 20rpx;
+}
+
+/* 下拉内容 */
+.scroll-view .scroll-right .scroll-list {
+	background-color: #fff;
+	padding: 0 20rpx;
+	width: 50%;
+	float: right;
+	position: relative;
+	right: 0;
+	z-index: 1;
+	overflow: hidden;
+	text-align: left;
+	animation: myfirst 0.5s;
+	font-size: 30rpx;
+}
+
+/* 下拉单元 */
+.scroll-view .scroll-right .scroll-list .scroll-item {
+	padding-left: 20rpx;
+	width: 100%;
+	height: 60rpx;
+	position: relative;
+	line-height: 60rpx;
+	border-bottom: 1px solid #ccc;
+}
+
+/* 下拉过度效果 */
+@keyframes myfirst {
+	from {
+		height: 0rpx;
+	}
+
+	to {
+		height: 210rpx;
+	}
+}
+
+/* 下拉框  结束---- */

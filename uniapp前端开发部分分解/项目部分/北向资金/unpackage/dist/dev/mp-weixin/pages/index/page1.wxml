@@ -1,0 +1,1 @@
+<echarts style="height:110vw;margin-left:2vw;width:100%;padding:4vw 0 0 0;" vue-id="c3cf722c-1" option="{{option}}" id="myChart" bind:__l="__l"></echarts>
